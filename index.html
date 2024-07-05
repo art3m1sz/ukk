@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-black shadow-md">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-16">
+                <div class="flex">
+                    <div class="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+                        <a href="#hero" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-100 focus:outline-none focus:border-indigo-700">
+                            Home
+                        </a>
+                        <a href="#features" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-100 hover:text-gray-100 hover:border-gray-300 focus:outline-none focus:text-gray-900 focus:border-gray-300">
+                            Services
+                        </a>
+                        <a href="#about" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 text-gray-100 hover:text-gray-100 hover:border-gray-300 focus:outline-none focus:text-gray-900 focus:border-gray-300">
+                            About
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:items-center">
+                    <button class="bg-gray-100 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded-full" onclick="window.location.href = 'login.php';">
+                        Log In
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+<div class="bg-top bg-cover" style="background-image: url('img/5.jpg');">
+    <!-- About Us Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl leading-8 font-semibold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+                    About Us
+                </h2>
+                <p class="mt-2 text-xl leading-8 text-gray-100 sm:text-2xl">
+                    Learn more about our company and our mission.
+                </p>
+            </div>
+            <div class="mt-12">
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-lg leading-7 text-gray-100">
+                        Electric Company is dedicated to providing reliable and sustainable electricity solutions for both residential and commercial customers. With years of experience in the industry, we have established ourselves as a trusted provider in the energy sector.
+                    </p>
+                    <p class="mt-6 text-lg leading-7 text-gray-100">
+                        Our mission is to make clean and renewable energy accessible to everyone. We strive to reduce our carbon footprint and contribute to a greener future for the planet. Through innovation and technological advancements, we aim to continuously improve our services and exceed the expectations of our customers.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl leading-8 font-semibold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+                    Reliable Electricity for Everyone
+                </h2>
+                <p class="mt-2 text-xl leading-8 text-gray-100 sm:text-2xl">
+                    Providing sustainable energy solutions for your home and business.
+                </p>
+                <div class="mt-8 flex justify-center">
+                    <div class="inline-flex rounded-md shadow">
+                        <a href="register.php" class="inline-flex items-center justify-center px-10 py-5 border border-transparent text-base leading-6 font-medium rounded-md text-black bg-gray-100 hover:bg-yellow-600  focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Features Section -->
+    <section id="features" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-3xl leading-8 font-semibold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+                    Our Services
+                </h2>
+                <p class="mt-2 text-xl leading-8 text-gray-100 sm:text-2xl">
+                    Explore the services we offer.
+                </p>
+            </div>
+            <div class="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                <!-- Feature Card -->
+                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full  object-cover" src="img/e1.jpg" alt="Electricity">
+                    </div>
+                    <div class="flex-1 bg-gray-950 p-6 flex flex-col justify-between">
+                        <div class="flex-1">
+                            <p class="text-xl leading-7 font-semibold text-gray-100">
+                                Listrik
+                            </p>
+                            <p class="mt-3 text-base leading-6 text-gray-100">
+                                Listrik Murah Untuk Segala Kegiatan.
+                            </p>
+                        </div>
+                        <div class="mt-6">
+                            <a href="#hero" class="block text-center text-base leading-6 font-semibold text-blue-600 hover:text-indigo-500 transition ease-in-out duration-150">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- More Feature Cards... -->
+                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full  object-cover" src="img/e2.jpg" alt="Electricity">
+                    </div>
+                    <div class="flex-1 bg-gray-950 p-6 flex flex-col justify-between">
+                        <div class="flex-1">
+                            <p class="text-xl leading-7 font-semibold text-gray-100">
+                                Pemasangan
+                            </p>
+                            <p class="mt-3 text-base leading-6 text-gray-100">
+                                Pemasangan Gratis Tanpa Biaya
+                            </p>
+                        </div>
+                        <div class="mt-6">
+                            <a href="#hero" class="block text-center text-base leading-6 font-semibold text-blue-600 hover:text-indigo-500 transition ease-in-out duration-150">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More Feature Cards... -->
+                <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="img/e3.jpg" alt="Electricity">
+                    </div>
+                    <div class="flex-1 bg-gray-950 p-6 flex flex-col justify-between">
+                        <div class="flex-1">
+                            <p class="text-xl leading-7 font-semibold text-gray-100">
+                                Pengecekan
+                            </p>
+                            <p class="mt-3 text-base leading-6 text-gray-100">
+                                Gratis Pengecekan Degan Teknisi S2.
+                            </p>
+                        </div>
+                        <div class="mt-6">
+                            <a href="#hero" class="block text-center text-base leading-6 font-semibold text-blue-600 hover:text-indigo-500 transition ease-in-out duration-150">
+                                Learn more
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More Feature Cards... -->
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Footer -->
+    <footer class="">
+        <div class="max-w-full mx-auto py-12 px-4 sm:px-6 lg:px-8 bg-black opacity-80">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex-1 min-w-0">
+                    <p onclick="window.location.href ='https://www.instagram.com/no.more.yahallo/'" class="text-base leading-6 justify-center font-serif text-center text-gray-300 hover:text-blue-500" style="cursor: pointer;">
+                        &copy; I Gusti Ngurah Arya Phalguna Abhimantra Putra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div> 
+<div class="fixed bottom-8 right-8">
+    <a href="#top" class=" w-12 h-12 bg-white text-black flex items-center justify-center rounded-full shadow-md hover:bg-gray-700 transition duration-300 ease-in-out">&#8593;</a>
+  </div>
+</body>
+<style>
+    html {
+        scroll-behavior: smooth;
+      }
+</style>
+</html>
